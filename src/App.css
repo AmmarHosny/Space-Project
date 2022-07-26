@@ -1,0 +1,236 @@
+ul{
+    list-style: none;
+}
+*{
+    text-decoration: none !important;
+}
+/*Start NavBar */
+nav{
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container ul{
+    background: linear-gradient(97deg, rgba(3,0,36,0.8802871490393032) 16%, rgba(22,13,93,0.6533963927367823) 52%, rgba(3,0,36,0.8830882694874825) 95%);
+    padding: 30px 50px;
+}
+nav .container ul a{
+    text-decoration: none;
+}
+nav .container ul li{
+    margin-left: 30px;
+    color: white;
+}
+/* End NavBar */
+/* Strat landinghome */
+.landing-home{
+    background: url("./image/home/background-home-desktop.jpg") no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+}
+.landing-home .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+}
+.landing-home .container h1{
+    font-size: 100px;
+}
+.landing-home .container p{
+    color: #eeeeee91;
+    font-size: 20px;
+}
+.landing-home .container h2{
+    width: 200px;
+    height: 200px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media (max-width:992px) {
+    .landing-home{
+        background: url("./image/home/background-home-tablet.jpg") no-repeat center/cover;
+        height: 100vh;
+    }
+    .landing-home .container{
+        text-align: center;
+        margin-top: 80px;
+    }
+    .landing-home .container h2{
+        margin-top: 30px;
+    }
+}
+@media (max-width:600px) {
+    .landing-home{
+        background: url("./image/home/background-home-mobile.jpg") no-repeat center/cover;
+        height: 100vh;
+    }
+}
+/* end landinghome */
+
+/* start deistination */
+.deistination{
+    background: url("./image/destination/background-destination-desktop.jpg") no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+}
+.deistination .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+}
+.deistination .container img{
+    width: 400px;
+}
+.deistination .container .text-deistination{
+    margin-top: 100px;
+}
+.deistination .container ul{
+    display: flex;
+    position: relative;
+}
+.deistination .container ul li{
+    margin-left: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.container .text-planet h3{
+    font-size: 100px;
+}
+.deistination .container .text{
+    display: flex;
+    justify-content: space-between;
+}
+.deistination .container .text h4{
+    font-size: 35px;
+}
+    @media (max-width:992px) {
+        .deistination{
+            background: url("./image/destination/background-destination-tablet.jpg") no-repeat center/cover;
+            height: 100vh;
+        }
+    }
+    @media (max-width:600px) {
+        .deistination{
+            background: url("./image/destination/background-destination-mobile.jpg") no-repeat center/cover;
+            height: 100vh;
+        }
+    }
+/* end deistination */
+/* Start Crew */
+.crew{
+    background: url("./image/crew/background-crew-desktop.jpg") no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+}
+.crew .text-crew{
+    margin-top: 165px;
+    color: #eeeeee61;
+}
+.crew .text-crew h2{
+    margin-bottom: 150px;
+}
+.crew .text-crew span{
+    display: block;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.crew .text-crew h1{
+    font-size: 55px;
+    color: white;
+}
+.crew .text-crew p{
+    font-size: 20px;
+    overflow: hidden;
+    height: 98px;
+}
+.crew .text-crew ul{
+    display: flex;
+}
+.crew .text-crew ul li{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #eeeeee61;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.crew .text-crew ul li.active{
+    background-color: white;
+}
+.crew img{
+    width: 500px;
+    height: 600px;
+    margin-top: 129px;
+}
+/* End Crew */
+/* Start Technology */
+.technology{
+    background: url("./image/technology/background-technology-desktop.jpg") center/cover;
+    height: 100vh;
+    position: relative;
+}
+.technology .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,  -50%);
+    color: #eeeeee61;
+}
+.technology .text-technology{
+    margin-top: 75px;
+    position: relative;
+    padding-left: 140px;
+}
+.technology .text-technology span{
+    margin-top: 100px;
+    display: block;
+    font-size: 20px;
+}
+.technology .text-technology h3{
+    color: white;
+    font-size: 50px;
+}
+.technology .text-technology p{
+    width: 400px;
+}
+.technology .text-technology ul{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    padding: 0;
+    left: 50px;
+}
+.technology .text-technology ul li{
+    padding: 20px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.technology .text-technology ul li.active{
+    background: white;
+    color: black;
+}
+.technology img{
+    width: 460px;
+    height: 505px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+/* End Technology */
