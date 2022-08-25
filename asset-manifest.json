@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Space-Project/static/css/main.d2f2e519.css",
-    "main.js": "/Space-Project/static/js/main.c2ec59f2.js",
+    "main.css": "/Space-Project/static/css/main.57a1ec24.css",
+    "main.js": "/Space-Project/static/js/main.7159e027.js",
     "static/media/image-victor-glover.png": "/Space-Project/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh-ansari.png": "/Space-Project/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
     "static/media/image-mark-shuttleworth.png": "/Space-Project/static/media/image-mark-shuttleworth.fc30f35b05fc0bc4ee47.png",
@@ -22,11 +22,12 @@
     "static/media/image-launch-vehicle-landscape.jpg": "/Space-Project/static/media/image-launch-vehicle-landscape.4281a59ff7186488fe6a.jpg",
     "static/media/background-destination-mobile.jpg": "/Space-Project/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
     "index.html": "/Space-Project/index.html",
-    "main.d2f2e519.css.map": "/Space-Project/static/css/main.d2f2e519.css.map",
-    "main.c2ec59f2.js.map": "/Space-Project/static/js/main.c2ec59f2.js.map"
+    "static/media/logo.svg": "/Space-Project/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
+    "main.57a1ec24.css.map": "/Space-Project/static/css/main.57a1ec24.css.map",
+    "main.7159e027.js.map": "/Space-Project/static/js/main.7159e027.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f2e519.css",
-    "static/js/main.c2ec59f2.js"
+    "static/css/main.57a1ec24.css",
+    "static/js/main.7159e027.js"
   ]
 }
