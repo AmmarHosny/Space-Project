@@ -14,6 +14,7 @@ const App = () => {
         <Navbarr/>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/Space-Project/' element={<Home/>}/>
           <Route path='/Deistination' element={<Deistination/>}/>
           <Route path='/Crew' element={<Crew/>}/>
           <Route path='/technology' element={<Technology/>}/>

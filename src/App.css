@@ -15,9 +15,11 @@ nav .container{
     justify-content: space-between;
     align-items: center;
 }
+
 nav .container ul{
     background: linear-gradient(97deg, rgba(3,0,36,0.8802871490393032) 16%, rgba(22,13,93,0.6533963927367823) 52%, rgba(3,0,36,0.8830882694874825) 95%);
     padding: 30px 50px;
+    display: flex;
 }
 nav .container ul a{
     text-decoration: none;
@@ -25,6 +27,60 @@ nav .container ul a{
 nav .container ul li{
     margin-left: 30px;
     color: white;
+}
+nav .close{
+    display: none;
+}
+nav .container .menu{
+    display: none;
+}
+nav .container .menu span{
+    width: 30px;
+    position: absolute;
+    height: 2px;
+    border: 2px solid blueviolet;
+}
+nav .container .menu span:first-child{
+    top: 37px;
+}
+nav .container .menu span:last-child{
+    bottom: 33px;
+}
+@media (max-width:760px) {
+    nav .container ul{
+    display: block;
+    position: absolute;
+    top: 75px;
+    padding-left: 20px;
+    padding-left: 20px;
+    width: 100%;
+    left: -770px;
+    transition: 0.5s;
+    }
+    nav .container ul li {
+        padding: 15px;
+    }
+nav .container .menu{
+    display: block;
+    cursor: pointer;
+    margin-right: 30px;
+    }
+    nav .close{
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    color: white;
+    border: 2px solid;
+    font-size: 31px;
+    width: 35px;
+    display: flex;
+    height: 40px;
+    border-radius: 50%;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+    }
 }
 /* End NavBar */
 /* Strat landinghome */
@@ -95,6 +151,9 @@ nav .container ul li{
 .deistination .container img{
     width: 400px;
 }
+.deistination .photo-deistination h1{
+    font-size: 35px;
+}
 .deistination .container .text-deistination{
     margin-top: 100px;
 }
@@ -117,18 +176,35 @@ nav .container ul li{
 .deistination .container .text h4{
     font-size: 35px;
 }
-    @media (max-width:992px) {
-        .deistination{
-            background: url("./image/destination/background-destination-tablet.jpg") no-repeat center/cover;
-            height: 100vh;
-        }
+@media (max-width:992px) {
+    .deistination{
+        background: url("./image/destination/background-destination-tablet.jpg") no-repeat center/cover;
+        height: 1500px;
     }
-    @media (max-width:600px) {
-        .deistination{
-            background: url("./image/destination/background-destination-mobile.jpg") no-repeat center/cover;
-            height: 100vh;
-        }
+    .deistination .photo-deistination{
+        text-align: center;
+        margin-top: -300px;
     }
+    .deistination .text-deistination{
+        text-align: center;
+    }
+    .deistination .text-deistination ul{
+        margin-left: 153px;
+    }
+}
+@media (max-width:600px) {
+    .deistination{
+        background: url("./image/destination/background-destination-mobile.jpg") no-repeat center/cover;
+        height: 1275px;
+    }
+    .deistination .photo-deistination img{
+        width: 300px;
+    }
+    .deistination .text-deistination ul{
+        margin-left: 0;
+    }
+}
+
 /* end deistination */
 /* Start Crew */
 .crew{
@@ -176,6 +252,24 @@ nav .container ul li{
     width: 500px;
     height: 600px;
     margin-top: 129px;
+}
+@media (max-width:992px) {
+    .crew{
+        background: url("./image/crew/background-crew-desktop.jpg") no-repeat center/cover;
+        height: 1275px;
+        text-align: center;
+    }
+    .crew img {
+    width: 370px;
+    height: 547px;
+    margin-top: 0;
+    }
+    .crew .text-crew ul {
+        justify-content: center;
+    }
+    .crew .text-crew h1 {
+        font-size: 45px;
+    }
 }
 /* End Crew */
 /* Start Technology */
@@ -232,5 +326,34 @@ nav .container ul li{
     height: 505px;
     margin-left: 100px;
     margin-top: 50px;
+}
+@media (max-width:992px) {
+    .technology{
+        height: 1275px;
+    }
+}
+@media (max-width:600px) {
+    .technology .text-technology {
+        margin-top: 0;
+        position: relative;
+        text-align: center;
+        padding: 0;
+    }
+    .technology .text-technology p{
+        width: 240px;
+        margin: auto;
+    }
+    .technology .text-technology ul{
+        top: 55px;
+        display: flex;
+    }
+    .technology .text-technology ul li{
+        margin-left: 35px;
+    }
+    .technology img{
+        width: 360px;
+        margin: auto;
+        margin-top: 50px;
+    }
 }
 /* End Technology */

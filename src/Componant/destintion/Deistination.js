@@ -22,7 +22,7 @@ const Deistination = () => {
         <div className='deistination'>
             <div className='container'>
                 <Row>
-                    <Col lg={6}>
+                    <Col lg={6} className="photo-deistination">
                         <h1 className='mb-4'>01 PICK YOUR DESTINATION</h1>
                         <img src={imge} alt="" ></img>
                         
