@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Space-Project/static/css/main.57a1ec24.css",
+    "main.css": "/Space-Project/static/css/main.249a6aa8.css",
     "main.js": "/Space-Project/static/js/main.7159e027.js",
     "static/media/image-victor-glover.png": "/Space-Project/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh-ansari.png": "/Space-Project/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
@@ -23,11 +23,11 @@
     "static/media/background-destination-mobile.jpg": "/Space-Project/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
     "index.html": "/Space-Project/index.html",
     "static/media/logo.svg": "/Space-Project/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
-    "main.57a1ec24.css.map": "/Space-Project/static/css/main.57a1ec24.css.map",
+    "main.249a6aa8.css.map": "/Space-Project/static/css/main.249a6aa8.css.map",
     "main.7159e027.js.map": "/Space-Project/static/js/main.7159e027.js.map"
   },
   "entrypoints": [
-    "static/css/main.57a1ec24.css",
+    "static/css/main.249a6aa8.css",
     "static/js/main.7159e027.js"
   ]
 }
