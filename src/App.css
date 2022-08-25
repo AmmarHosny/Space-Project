@@ -183,7 +183,6 @@ nav .container .menu{
     }
     .deistination .photo-deistination{
         text-align: center;
-        margin-top: -300px;
     }
     .deistination .text-deistination{
         text-align: center;
@@ -260,7 +259,7 @@ nav .container .menu{
         text-align: center;
     }
     .crew img {
-    width: 370px;
+    width: 350px;
     height: 547px;
     margin-top: 0;
     }
